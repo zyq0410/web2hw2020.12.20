@@ -1,0 +1,240 @@
+/* CSS Document */
+*{
+	 margin:0px;
+	 padding:0px;
+}
+a{
+	 text-decoration:none;
+}
+body{
+	 line-height:180%;
+	 background:url() center top no-repeat;
+	 font-size:13px;
+}
+h3{
+	 padding:5px 0 5px 10px;
+}
+
+#main{
+	 width:900px;
+	 margin:0 auto;
+	 background:url(images/bg_s.png);
+	 border:1px solid #328CE7;
+}
+#banner{
+	 height:156px;
+	 background:url(images/bg_top.jpg) center center no-repeat;
+}
+.logo{
+	 width:200px;
+	 height:80px;
+	 float:left;
+	 margin:19px 20px;
+	 font-weight:bold;
+	 font-size:36px;
+	 line-height:80px;
+	 border:1px #328CE7 dashed;
+	 text-align:center;
+}
+.logo a{
+	 display:block;
+	 width:200px;
+	 height:80px;
+	 color:white;
+}
+.logo a:hover{
+	 background:url(images/bg_s.png);
+	 color:#000000;
+}
+#so_bar{
+	 height:35px;
+	 background:#328CE7;
+}
+#so_bar ul{
+	 list-style-type:none;
+}
+#so_bar ul li{
+	 float:left;
+	 width:49%;
+	 border:1px dashed white;
+	 margin:2px 3px;
+	 line-height:30px;
+}
+#content{
+	 height:600px;
+}
+#menu{
+	 float:right;
+	 width:220px;
+}
+#menu ul{
+	 list-style-type:none;
+}
+#menu ul li{
+	 width:220px;
+	 height:45px;
+	 line-height:45px;
+	 text-align:center;
+	 font-size:16px;
+	 color:white;
+	 border-bottom:1px dashed #CCCCCC;
+}
+#menu ul li a{
+	 display:block;
+	 width:220px;
+	 height:45px;
+	 color:#FFFFFF;
+}
+#menu ul li a:hover{
+	 background:#FFFFFF;
+	 color:#000000;
+	 font-weight:bold;
+}
+#menu ul .m1{
+	 background:#328CE7;
+}
+#menu ul .m8{
+	 background:#000000;
+}
+
+.contact{
+	 margin-top:10px;
+	 width:220px;
+	 height:180px;
+	 float:right;
+	 background:url(images/contact.jpg) top center;
+	 }
+.contact p {
+	 padding:60px 0 0 65px;
+}
+
+#right{
+	 width:670px;
+	 float:left;
+}
+#right ul{
+	 list-style-type:none;
+}
+#right ul li{
+	 border:1px #328CE7 dashed;
+	 width:312px;
+	 height:182px;
+	 float:left;
+	 margin:10px;
+	 font-size:12px;
+	 overflow:auto;
+	 line-height:150%;
+}
+#right ul li img{
+	 width:130px;
+	 height:180px;
+	 padding:3px;
+	 float:left;
+}
+
+.about{
+	 text-indent:24px;
+}
+ 
+.keyword {
+	color: #FFFFFF}
+.slide{
+	float: left;
+	 width:480px;
+}
+.about{
+	float:right;
+	 width:170px;
+	 margin-right:10px;
+	 border:1px #FF3300 dashed;
+	 height:280px;
+}
+.clear{
+	clear:both;
+}
+#footer{
+	 height:30px;
+	 text-align:center;
+	 font-size:12px;
+	 padding:20px;
+	 background:#328CE7;
+	 color:#FFF;
+}
+.img{
+	width:120px;
+	 height:85px;
+	 padding:5px;
+}
+
+/**幻灯**/
+.d1{
+	width:460px;
+	height:auto;
+	overflow:hidden;
+	border:#666666 2px solid;
+	background-color:#000000;
+	position:relative;
+}
+.loading{
+	width:460px;
+	border:#666666 2px solid;
+	background-color:#000000;
+	color:#FFCC00;
+	font-size:12px;
+	height:260px;
+	text-align:center;
+	padding-top:30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.d2{
+	width:100%;
+	height:260px;
+	overflow:hidden;
+}
+.num_list{
+	position:absolute;
+	width:100%;
+	left:0px;
+	bottom:-1px;
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:12px;
+	padding:4px 0px;
+	height:20px;
+	overflow:hidden;
+}
+.num_list span{
+	display:inline-block;
+	height:16px;
+	padding-left:6px;
+}
+img{
+	border:0px;
+}
+.ul1{
+	display:none;
+}
+.button{
+	position:absolute;
+	 z-index:1000;
+	 right:0px;
+	 bottom:2px;
+	 font-size:13px;
+	 font-weight:bold;
+	 font-family:Arial, Helvetica, sans-serif;
+}
+.b1,.b2{
+	background-color:#666666;
+	display:block;
+	float:left;
+	padding:2px 6px;
+	margin-right:3px;
+	color:#FFFFFF;
+	text-decoration:none;
+	cursor:pointer;
+}
+.b2{
+	color:#FFCC33;
+	background-color:#FF6633;
+}
